@@ -1,4 +1,4 @@
-module github.com/getlantern/systray
+module github.com/tkalus-forks/systray
 
 go 1.17
 
