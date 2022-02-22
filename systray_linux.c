@@ -3,10 +3,10 @@
 #include <errno.h>
 #include <limits.h>
 
-#ifdef USE_AYATANA
-#include <libayatana-appindicator/app-indicator.h>
-#else
+#ifdef USE_LEGACY_APPINDICATOR
 #include <libappindicator/app-indicator.h>
+#else
+#include <libayatana-appindicator/app-indicator.h>
 #endif
 
 #include "systray.h"
