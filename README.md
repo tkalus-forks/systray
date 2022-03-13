@@ -1,3 +1,10 @@
+# NOTICE -- Caveat Emptor
+
+**This fork is maintained at best-effort with occasional rebase on top of [upstream](https://github.com/getlantern/systray) keeping add'l commits at the end of the history.  As a result, `main` in this fork will have force-pushes.**
+
+I'll attempt to retain attribution back to original cherry-picked commits where possible (links in commit messages).
+
+---
 systray is a cross-platform Go library to place an icon and menu in the notification area.
 
 ## Features
